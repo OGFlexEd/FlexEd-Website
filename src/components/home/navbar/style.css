@@ -1,0 +1,31 @@
+#navbar {
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed; /* Make it stick/fixed */
+    top: 0; /* Stay on top */
+    width: 100%; /* Full width */
+    min-height: 50px;
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+
+    background-color: #ffffff;
+    border-bottom: 2px solid black;
+    z-index: 3;
+}
+
+#link {
+    background:none; 
+    border:none;
+
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    transition: 0.5s;
+    text-decoration: none;
+    color: black
+}
+
+#link:hover {
+    color: red
+}

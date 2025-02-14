@@ -1,0 +1,38 @@
+.column {
+
+    border-radius: 2.5px;
+    width: 400px;
+    height: 80vh;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    border-right: 1px solid gray;
+}
+.column:last-child {
+    border: 0px solid gray;
+}
+
+#column-content {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y:hidden;
+    height: 70vh;
+
+}
+
+.column::-webkit-scrollbar {
+    display: none;
+}
+
+.column-list {
+    padding: 3px;
+    transition: background-color 0.2s ease;
+    flex-grow: 1;
+    height: 80vh;
+}
+
+
+#column-title {
+    position: "absolute";
+    top: "0";
+    height: 5vh;
+}

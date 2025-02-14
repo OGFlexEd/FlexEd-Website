@@ -1,0 +1,88 @@
+.next{
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    width: 100px;
+    height: 50px;
+    font-weight: bolder;
+    font-size: 22px;
+    border-width: 5px;
+    border-color: green;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.prev{
+    border-radius: 10px;
+    background-color: rgb(0, 98, 255);
+    color: white;
+    width: 100px;
+    height: 50px;
+    font-weight: bolder;
+    border-color: rgb(0, 98, 255);
+    border-width: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+}
+.submit{
+    border-radius: 10px;
+    background-color: rgb(236, 163, 29);
+    color: white;
+    width: 100px;
+    height: 50px;
+    font-weight: bolder;
+    border-color: rgb(236, 163, 29);
+    border-width: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+}
+.qbox{
+    padding-top: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+.qinfo{
+    padding-top: 50px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(114, 221, 226);
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    height: 70vh;
+    width: 1300px;
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+.fin_box{
+    padding-top: 60px;
+}
+.done_box{
+    font-size: 60px;
+}
+
+.buttons{
+    display: flex;padding-top: 10px;padding-bottom: 10px;
+    justify-content: space-evenly;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+label.box .circle{height: 22px;width: 22px;border-radius: 50%;margin-right: 15px;border: 2px solid #0091ff;display: inline-block}
+label.box:hover{background: #7fd6f0}
+label.box #active{
+    background: #7fd6f0;
+}
+label.box{display: flex;font-weight: bold;margin-top: 10px;padding: 10px 12px;border-radius: 5px;cursor: pointer;border: 1px solid #0887dc;width: 1200px;}
+#one:checked~label.first, #two:checked~label.second, #three:checked~label.third, #four:checked~label.forth, #five:checked~label.fifth, #six:checked~label.sixth, #seven:checked~label.seveth, #eight:checked~label.eighth{border-color: #03426e}
+input[type="radio"]{display: none}
+#one:checked~label.first, #two:checked~label.second, #three:checked~label.third, #four:checked~label.forth, #five:checked~label.fifth, #six:checked~label.sixth, #seven:checked~label.seveth, #eight:checked~label.eighth{border-color: #0062ff}
+#one:checked~label.first .circle, #two:checked~label.second .circle, #three:checked~label.third .circle, #four:checked~label.forth .circle, #five:checked~label.fifth .circle, #six:checked~label.sixth .circle, #seven:checked~label.seveth .circle, #eight:checked~label.eighth .circle{border: 6px solid #0091ff;background-color: #fff}

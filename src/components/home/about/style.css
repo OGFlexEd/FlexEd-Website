@@ -1,0 +1,17 @@
+.about-section {
+    width: 100vw;
+    height: 300vh;
+    background-color: white;
+}
+
+.about-info {
+    padding-top: 20vh;
+    align-items: center;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    line-height: 3.5;
+    margin: auto;
+    text-align: left;
+}
